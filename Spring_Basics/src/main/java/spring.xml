@@ -10,5 +10,10 @@
 
 	<!-- <bean id="vehicle" class="com.Spring_Basics.Car"></bean> -->
 	<context:component-scan base-package="com.Spring_Basics"></context:component-scan>
+	
+	<bean id="tyre" class="com.Spring_Basics.Tyre">
+		<property name="brand" value="MRF"></property>
+	</bean>
+
 
 </beans>

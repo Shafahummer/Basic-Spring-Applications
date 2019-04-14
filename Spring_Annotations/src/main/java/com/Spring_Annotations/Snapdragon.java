@@ -1,5 +1,8 @@
 package com.Spring_Annotations;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Snapdragon implements MobileProcessor {
 
 	public void process() {
